@@ -21,7 +21,7 @@ public class Ex2 {
 		for (int i = 0; i < interval1ds.length - 1; i++) {
 			for (int j = i + 1; j < interval1ds.length; j++) {
 				if (interval1ds[i].intersects(interval1ds[j])) {
-					StdOut.println(interval1ds[i] + "" + interval1ds[j]);
+					StdOut.println(interval1ds[i] + " intersects " + interval1ds[j]);
 				}
 			}
 		}
