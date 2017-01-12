@@ -22,7 +22,7 @@ public class Ex9 {
 		long duration = System.currentTimeMillis() - time;
 		StdOut.println("二分查找所需时间为:" + duration + "毫秒");
 	}
-
+////
 	private static int rank(int key, int[] a) {
 		int lo = 0;
 		int hi = a.length - 1;
