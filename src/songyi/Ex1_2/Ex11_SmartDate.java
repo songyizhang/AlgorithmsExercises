@@ -4,17 +4,15 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class Ex11_SmartDate {
 	public static void main(String[] args) {
-		SmartDate smartDate = new SmartDate(4, 30, 1800);
+		Ex11_SmartDate smartDate = new Ex11_SmartDate(4, 30, 1800);
 		StdOut.println(smartDate.year());
 	}
-}
 
-class SmartDate {
 	private final int month;
 	private final int day;
 	private final int year;
 
-	public SmartDate(int m, int d, int y) {
+	public Ex11_SmartDate(int m, int d, int y) {
 		month = m;
 		day = d;
 		year = y;
